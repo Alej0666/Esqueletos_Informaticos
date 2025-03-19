@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\exampoo\exampoo\bin\Debug\exampoo.exe.config
+C:\Users\User\source\repos\exampoo\exampoo\bin\Debug\exampoo.exe
+C:\Users\User\source\repos\exampoo\exampoo\bin\Debug\exampoo.pdb
+C:\Users\User\source\repos\exampoo\exampoo\obj\Debug\exampoo.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\exampoo\exampoo\obj\Debug\exampoo.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\exampoo\exampoo\obj\Debug\exampoo.exe
+C:\Users\User\source\repos\exampoo\exampoo\obj\Debug\exampoo.pdb
