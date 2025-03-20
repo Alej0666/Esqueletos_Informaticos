@@ -7,23 +7,23 @@
       "RelativeMoniker": "D:0:0:{0C45DAA9-5763-4E1E-9427-A8F846647D8A}|exampoo\\exampoo.csproj|solutionrelative:exampoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C45DAA9-5763-4E1E-9427-A8F846647D8A}|exampoo\\exampoo.csproj|c:\\users\\user\\source\\repos\\exampoo\\exampoo\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C45DAA9-5763-4E1E-9427-A8F846647D8A}|exampoo\\exampoo.csproj|C:\\Users\\User\\source\\repos\\exampoo\\exampoo\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C45DAA9-5763-4E1E-9427-A8F846647D8A}|exampoo\\exampoo.csproj|solutionrelative:exampoo\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C45DAA9-5763-4E1E-9427-A8F846647D8A}|exampoo\\exampoo.csproj|c:\\users\\user\\source\\repos\\exampoo\\exampoo\\gerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C45DAA9-5763-4E1E-9427-A8F846647D8A}|exampoo\\exampoo.csproj|C:\\Users\\User\\source\\repos\\exampoo\\exampoo\\gerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C45DAA9-5763-4E1E-9427-A8F846647D8A}|exampoo\\exampoo.csproj|solutionrelative:exampoo\\gerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C45DAA9-5763-4E1E-9427-A8F846647D8A}|exampoo\\exampoo.csproj|c:\\users\\user\\source\\repos\\exampoo\\exampoo\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C45DAA9-5763-4E1E-9427-A8F846647D8A}|exampoo\\exampoo.csproj|C:\\Users\\User\\source\\repos\\exampoo\\exampoo\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C45DAA9-5763-4E1E-9427-A8F846647D8A}|exampoo\\exampoo.csproj|solutionrelative:exampoo\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C45DAA9-5763-4E1E-9427-A8F846647D8A}|exampoo\\exampoo.csproj|c:\\users\\user\\source\\repos\\exampoo\\exampoo\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C45DAA9-5763-4E1E-9427-A8F846647D8A}|exampoo\\exampoo.csproj|C:\\Users\\User\\source\\repos\\exampoo\\exampoo\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C45DAA9-5763-4E1E-9427-A8F846647D8A}|exampoo\\exampoo.csproj|solutionrelative:exampoo\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C45DAA9-5763-4E1E-9427-A8F846647D8A}|exampoo\\exampoo.csproj|c:\\users\\user\\source\\repos\\exampoo\\exampoo\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C45DAA9-5763-4E1E-9427-A8F846647D8A}|exampoo\\exampoo.csproj|C:\\Users\\User\\source\\repos\\exampoo\\exampoo\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C45DAA9-5763-4E1E-9427-A8F846647D8A}|exampoo\\exampoo.csproj|solutionrelative:exampoo\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "exampoo\\Program.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\exampoo\\exampoo\\Program.cs",
               "RelativeToolTip": "exampoo\\Program.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAQwJAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwA8AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T14:07:30.149Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "exampoo\\Cliente.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAIwEYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:31:30.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T15:31:30.477Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "exampoo\\Persona.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwCwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:28:13.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T15:28:13.928Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "exampoo\\Producto.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAYwDYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:26:09.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T15:26:09.616Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "exampoo\\Empleado.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAgwC4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:23:29.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T15:23:29.778Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "exampoo\\Gerente.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:21:59.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T15:21:59.092Z"
             }
           ]
         }
