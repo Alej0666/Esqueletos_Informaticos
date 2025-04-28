@@ -17,4 +17,5 @@ export class AuthController {
             res.status(401).send('Credenciales incorrectas');
         }
     }
-}
+} 
+
