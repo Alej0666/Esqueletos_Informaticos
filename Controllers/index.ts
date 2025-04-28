@@ -15,20 +15,31 @@ const loginForm = document.getElementById('loginForm') as HTMLFormElement;
 const messageDiv = document.getElementById('message') as HTMLDivElement;
 
 // Agregar un evento al formulario para manejar el envío
-loginForm.addEventListener('click', (event) => {
-    event.preventDefault(); // Prevenir el comportamiento por defecto del formulario
+loginForm.addEventListener('submit', async (event) => {
+    event.preventDefault();
 
-    // Obtener los valores de los campos de entrada
     const username = (document.getElementById('username') as HTMLInputElement).value;
     const password = (document.getElementById('password') as HTMLInputElement).value;
 
-    // Autenticar al usuario
-    if (authenticate(username, password)) {
-        messageDiv.textContent = 'Inicio de sesión exitoso!';
-        messageDiv.style.color = 'green';
-    } else {
-        messageDiv.textContent = 'Usuario o contraseña incorrectos.';
-        messageDiv.style.color = 'red';
+    try {
+        const response = await fetch('/Login.html', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ username, password }),
+        });
+
+        if (response.ok) {
+            const user = await response.json(); // asumiremos que el backend devuelve info del usuario
+            localStorage.setItem('loggedInUser', JSON.stringify(user));
+            window.location.href = '/Index.html'; // redireccionar
+        } else {
+            messageDiv.textContent = 'Usuario o contraseña incorrectos.';
+            messageDiv.style.color = 'red';
+        }
+    } catch (error) {
+        console.error('Error durante el login:', error);
     }
 });
 

@@ -15,8 +15,8 @@ const messageDiv = document.getElementById('message') as HTMLDivElement;
 const recoverPasswordButton = document.getElementById('recoverPassword') as HTMLButtonElement;
 
 // Verificar si el usuario ya ha iniciado sesión
-if (localStorage.getItem('loggedInUser ')) {
-    const loggedInUser  = JSON.parse(localStorage.getItem('loggedInUser ')!);
+if (localStorage.getItem('loggedInUser')) {
+    const loggedInUser  = JSON.parse(localStorage.getItem('loggedInUser')!);
     messageDiv.textContent = `Ya has iniciado sesión como ${loggedInUser .username}.`;
     messageDiv.style.color = 'green';
     // Aquí podrías redirigir a otra página si lo deseas
@@ -31,17 +31,22 @@ loginForm.addEventListener('submit', (event) => {
     const password = (document.getElementById('password') as HTMLInputElement).value;
 
     // Autenticar al usuario
+
+    function authenticate(username: string, password: string): User | null {
+        return users.find(user => user.username === username && user.password === password) || null;
+    } 
+
     const user = authenticate(username, password);
     if (user) {
         messageDiv.textContent = `Inicio de sesión exitoso! Rol: ${user.role}`;
         messageDiv.style.color = 'green';
 
         // Guardar el usuario en localStorage
-        localStorage.setItem('loggedInUser ', JSON.stringify(user));
+        localStorage.setItem('loggedInUser', JSON.stringify(user));
 
         // Redirigir a la página principal después de un inicio de sesión exitoso
         setTimeout(() => {
-            window.location.href = 'index.html'; // Cambia 'index.html' por la URL de tu página principal
+            window.location.href = 'Index.html'; // Cambia 'index.html' por la URL de tu página principal
         }, 2000); // Esperar 2 segundos antes de redirigir
     } else {
         messageDiv.textContent = 'Usuario o contraseña incorrectos.';
@@ -50,9 +55,7 @@ loginForm.addEventListener('submit', (event) => {
 });
 
 // Función para autenticar al usuario
-function authenticate(username: string, password: string): User | null {
-    return users.find(user => user.username === username && user.password === password) || null;
-}
+
 
 // Función para recuperar la contraseña
 function recoverPassword(username: string): string {

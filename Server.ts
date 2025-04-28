@@ -11,17 +11,20 @@ const port = 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-// Configurar EJS como motor de plantillas
+// Servir archivos estáticos (Muy importante)
+app.use(express.static(path.join(__dirname, 'views')));
+
+// Configurar EJS como motor de plantillas (opcional, si usas HTML plano no lo necesitas realmente)
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 // Rutas
-app.get('/login', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views', 'login.html'));
+app.get('/Login.html', (req, res) => {
+    res.sendFile(path.join(__dirname, 'views', 'Login.html'));
 });
 
 const authController = new AuthController();
-app.post('/login', (req, res) => authController.login(req, res));
+app.post('/Login.html', (req, res) => authController.login(req, res));
 
 // Iniciar el servidor
 app.listen(port, () => {

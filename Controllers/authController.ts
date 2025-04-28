@@ -10,12 +10,10 @@ export class AuthController {
         const user = users.find(u => u.username === username && u.password === password);
 
         if (user) {
-            // Autenticación exitosa
-            res.send(`Bienvenido, ${user.username}!`);
+            res.json({ username: user.username, role: user.role });
         } else {
-            // Autenticación fallida
-            res.status(401).send('Credenciales incorrectas');
-        }
+            res.status(401).json({ message: 'Credenciales incorrectas' });
+        }        
     }
 } 
 
